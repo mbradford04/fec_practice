@@ -144,3 +144,9 @@ a {
   padding-left: 0.5rem;
   margin-right: 1rem;
 }
+
+@media screen and (min-widt: 1024px) {
+  .list--tick .list__item {
+    padding-left: 0;
+  }
+}
